@@ -30,10 +30,10 @@ class App extends Component {
       { sanitize: true, renderer: renderer, tables: true, breaks: true, gfm: true }
     )
 
-    const script = document.createElement("script");
-    script.src = "https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js";
-    script.async = true;
-    document.body.appendChild(script);
+    // const script = document.createElement("script");
+    // script.src = "https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js";
+    // script.async = true;
+    // document.body.appendChild(script);
 
     this.setState({
       preview: marked(this.state.editor),
